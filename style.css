@@ -1,0 +1,307 @@
+img{
+	position: relative;
+	top: 100px;
+	right: -200px;
+	width: 50%;
+	height: 70px;
+	object-fit: cover;
+}
+
+.title{
+	font-size: 4vw;
+	font-family: impact;
+}
+.tag-line{
+	font-family: cursive;
+}
+.exp{
+	font-family:  Courier;
+}
+.ourtitle{
+	font-size: 3vw;
+	font-family: impact;
+}
+
+    div .card-body1:hover{
+      background-color: #FFFC00;
+      color: black;
+      border-radius: 20px;
+      box-shadow: 10px 10px 30px 5px gray;
+    }
+    .card-title1:hover{
+      color: white;
+    }
+
+
+@media (min-width:  300px) and (max-width:  500px){
+	img{
+	position: relative;
+	top: 280px;
+	right: -30px;
+	width: 80%;
+	height: 150px;
+	object-fit: cover;
+}
+	.ourtitle{
+		font-size: 5vw;
+		position: relative;
+		left: -20px;
+	}
+	.card-deck{
+		width: 380px!important;
+		position: relative;
+		left: 5px;
+	}
+
+}
+
+@media (min-width:  501px) and (max-width:  700px){
+	.text1{
+		position: relative;
+		top: -120px!important;
+		left: 80px!important;
+		font-size: 9vw!important;
+	}
+	.text3{
+		position: relative;
+		top: -140px!important;
+		left: 85px!important;
+		font-size: 4vw!important;
+	}
+	.card-deck{
+		width: 380px!important;
+		position: relative;
+		left: 70px;
+	}
+
+	img{
+	position: relative;
+	top: 280px;
+	right: -30px;
+	width: 80%;
+	height: 200px;
+	}
+	.booknow{
+		position: relative;
+		left: 20px;
+	}
+	.ourtitle{
+		position: relative;
+		left: 60px;
+	}
+}
+
+
+@media (min-width: 576px) and (max-width: 700px){
+	   .card-deck{
+		width: 530px!important;
+		position: relative;
+		left: 100px!important;
+	}
+		.ourtitle{
+		font-size: 4vw;
+	}
+
+}
+
+@media (min-width: 576px) and (max-width: 776px){
+	.exp{
+		font-size: 12px;
+	}
+	.card-deck{
+		width: 500px!important;
+		position: relative;
+		left: 230px!important;
+	}
+}
+
+@media (min-width:  701px) and (max-width:  900px){
+	.text1{
+		position: relative;
+		top: -120px!important;
+		left: 80px!important;
+		font-size: 9vw!important;
+	}
+	.text3{
+		position: relative;
+		top: -140px!important;
+		left: 85px!important;
+		font-size: 4vw!important;
+	}
+
+	img{
+	position: relative;
+	top: 280px;
+	right: -50px;
+	width: 80%;
+	height: 250px;
+	}
+	.back{
+      background-color: #FFFC00;
+      width: 100%!important;
+      height: 550px!important;		
+	}
+	.booknow{
+		position: relative;
+		left: 120px;
+	}
+	.ourtitle{
+		position: relative;
+		left: 100px;
+	}
+}
+
+@media (min-width:  901px) and (max-width:  1200px){
+	.text1{
+		position: relative;
+		top: -120px!important;
+		left: 80px!important;
+		font-size: 7vw!important;
+	}
+	.text3{
+		position: relative;
+		top: -140px!important;
+		left: 85px!important;
+		font-size: 3vw!important;
+	}
+
+	img{
+	position: relative;
+	top: 280px;
+	right: -400px;
+	width: 60%;
+	height: 250px;
+	}
+	.back{
+      background-color: #FFFC00;
+      width: 100%!important;
+      height: 600px!important;		
+	}
+	.booknow{
+		position: relative;
+		left: 130px;
+	}
+	.ourtitle{
+		position: relative;
+		left: 105px;
+	}
+
+}
+
+@media (min-width:  1201px) and (max-width:  1600px){
+	.text1{
+		position: relative;
+		top: -180px!important;
+		left: 150px!important;
+		font-size: 7vw!important;
+	}
+	.text3{
+		position: relative;
+		top: -220px!important;
+		left: 150px!important;
+		font-size: 3vw!important;
+	}
+
+	img{
+	position: relative;
+	top: 280px;
+	right: -700px;
+	width: 50%;
+	height: 300px;
+	}
+	.back{
+      background-color: #FFFC00;
+      width: 100%!important;
+      height: 600px!important;		
+	}
+	.booknow{
+		position: relative;
+		left: 100px;
+	}
+	.ourtitle{
+		position: relative;
+		left: 81px;
+	}
+	.card-deck{
+		width: 800px!important;
+		position: relative;
+		left: 180px!important;
+	}
+}
+
+@media (min-width: 1272px) and (max-width: 1300px){
+	.card-deck{
+		width: 800px!important;
+		position: relative;
+		left: 250px!important;
+	}
+}
+@media (min-width: 1401px) and (max-width: 1600px){
+	.card-deck{
+		width: 800px!important;
+		position: relative;
+		left: 350px!important;
+	}
+}
+
+@media (min-width: 1600px) and (max-width: 1800px){
+	img{
+	position: relative;
+	top: 220px;
+	right: -700px;
+	width: 50%;
+	height: 300px;
+	}
+	.text1{
+		position: relative;
+		top: -180px!important;
+		left: 150px!important;
+		font-size: 7vw!important;
+	}
+	.text3{
+		position: relative;
+		top: -220px!important;
+		left: 160px!important;
+		font-size: 3vw!important;
+	}
+	.back{
+      background-color: #FFFC00;
+      width: 100%!important;
+      height: 550px!important;		
+	}
+}
+
+@media (min-width: 1801px) and (max-width: 2000px){
+	img{
+	position: relative;
+	top: 220px;
+	right: -700px;
+	width: 50%;
+	height: 300px;
+	}
+	.text1{
+		position: relative;
+		top: -180px!important;
+		left: 150px!important;
+		font-size: 7vw!important;
+	}
+	.text3{
+		position: relative;
+		top: -220px!important;
+		left: 160px!important;
+		font-size: 3vw!important;
+	}
+	.back{
+      background-color: #FFFC00;
+      width: 100%!important;
+      height: 550px!important;		
+	}
+	.card-deck{
+		width: 800px!important;
+		position: relative;
+		left: 430px!important;
+	}
+
+}
+
+ 
